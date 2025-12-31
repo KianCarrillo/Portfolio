@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kian Carrillo | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="nav-left">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+        </ul>
+
+        <div class="logo">
+            <a href="#home"><i class="fa-solid fa-user-graduate fa-2x"></i></a>
+        </div>
+
+        <ul class="nav-right">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="theme-toggle">
+            <button id="themeToggle" aria-label="Toggle Dark/Light Mode">🌙</button>
+        </div>
+
+        <button id="menuToggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>    
+
+<section id="home" class="section hero hidden">
+    <img src="assets/profile.jpg" class="avatar" alt="Profile picture">
+    <h1>Hello, I’m Kian Carrillo</h1>
+    <p class="subtitle">Turning Code into Worlds | IT Student & Gamer</p>
+    <p class="intro">
+        "Though my soul may set in darkness, it will rise in perfect light; I have loved the stars too fondly to be fearful of the night." – Sarah Williams
+    </p>
+    <a href="#about" class="scroll-down"><i class="fa-solid fa-arrow-down"></i></a>
+</section>
+
+<section id="about" class="section alt hidden">
+    <h2>About Me</h2>
+    <div class="about-grid">
+        <div class="about-text">
+            <p>I am Kian Andre Q. Carrillo, a second-year Bachelor of Science in Information Technology student at Eastern Visayas State University – Ormoc City Campus. I focus on web development and enjoy building clean, responsive, and user-friendly websites while continuously improving my skills.</p>
+            <p>My technical interests include mastering coding to start creating games, experimenting with new programming languages, and exploring software development projects that challenge me.</p>
+            <p>Besides coding, I love gaming. I take pride in completing games 100%, collecting all achievements, and my favorite franchise is <strong>Assassin's Creed</strong>.</p>
+        </div>
+        <div class="about-img">
+            <img src="assets/profile2.jpg" alt="Kian playing games">
+        </div>
+    </div>
+</section>
+
+<section id="gaming" class="section hidden">
+    <h2>Gaming</h2>
+
+    <h3>Assassin's Creed Achievements</h3>
+    <div class="gaming-grid">
+        <div class="gaming-card" data-img="assets/AC1Achievements.jpg" data-desc="Assassin's Creed Achievement">
+            <img src="assets/AC1Achievements.jpg" alt="AC1 Achievement 1">
+            <p>Assassin's Creed Achievement</p>
+        </div>
+        <div class="gaming-card" data-img="assets/AC2Achievements.jpg" data-desc="Assassin's Creed 2 Achievement">
+            <img src="assets/AC2Achievements.jpg" alt="Assassin's Creed 2 Achievement">
+            <p>Assassin's Creed 2 Achievement</p>
+        </div>
+        <div class="gaming-card" data-img="assets/ACBHAchievements.jpg" data-desc="Assassin's Creed Brotherhood Achievement">
+            <img src="assets/ACBHAchievements.jpg" alt="Assassin's Creed Brotherhood Achievement">
+            <p>Assassin's Creed Brotherhood Achievement</p>
+        </div>
+        <div class="gaming-card" data-img="assets/ACRAchievements.jpg" data-desc="Assassin's Creed Revelations Achievement">
+            <img src="assets/ACRAchievements.jpg" alt="Assassin's Creed Revelations Achievement">
+            <p>Assassin's Creed Revelations Achievement</p>
+        </div>
+    </div>
+
+    <h3>Gameplay Screenshots</h3>
+    <div class="gaming-grid">
+        <div class="gaming-card" data-img="assets/AC1(1).jpg" data-desc="Assassin's Creed">
+            <img src="assets/AC1(1).jpg" alt="AC1 Gameplay 1">
+            <p>Assassin's Creed</p>
+        </div>
+        <div class="gaming-card" data-img="assets/AC1.jpg" data-desc="Assassin's Creed">
+            <img src="assets/AC1.jpg" alt="AC2 Gameplay 2">
+            <p>Assassin's Creed</p>
+        </div>
+        <div class="gaming-card" data-img="assets/AC2.jpg" data-desc="Assassin's Creed 2">
+            <img src="assets/AC2.jpg" alt="AC3 Gameplay 3">
+            <p>Assassin's Creed 2</p>
+        </div>
+        <div class="gaming-card" data-img="assets/ACBH.jpg" data-desc="Assassin's Creed Brotherhood">
+            <img src="assets/ACBH.jpg" alt="AC4 Gameplay 4">
+            <p>Assassin's Creed Brotherhood</p>
+        </div>
+        <div class="gaming-card" data-img="assets/ACR.jpg" data-desc="Assassin's Creed Revelations">
+            <img src="assets/ACR.jpg" alt="AC5 Gameplay 5">
+            <p>Assassin's Creed Revelations</p>
+        </div>
+    </div>
+</section>
+
+<section id="hobbies" class="section hidden">
+    <h2>Hobbies</h2>
+    <div class="grid">
+        <div class="card hobby-card">
+            <i class="fa-solid fa-gamepad"></i>
+            <h3>Gaming</h3>
+            <p>Playing video games, completing achievements, and exploring new game worlds for fun and strategy.</p>
+        </div>
+        <div class="card hobby-card">
+            <i class="fa-solid fa-video"></i>
+            <h3>Streaming</h3>
+            <p>Watching live streams and occasionally streaming gameplay or coding sessions.</p>
+        </div>
+        <div class="card hobby-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Coding</h3>
+            <p>Building websites, apps, and experimenting with new programming languages and frameworks.</p>
+        </div>
+        <div class="card hobby-card">
+            <i class="fa-solid fa-microphone"></i>
+            <h3>Singing</h3>
+            <p>Enjoy singing as a way to relax and express creativity, both solo and with friends.</p>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="section alt hidden">
+    <h2>Education</h2>
+    <div class="grid">
+        <!-- Elementary -->
+        <div class="card edu-card">
+            <div class="edu-flex">
+                <img src="assets/OCCS.jpg" alt="Ormoc City Central School Logo" class="edu-logo">
+                <img src="assets/elem-me.jpg" alt="Kian in Elementary" class="edu-personal-pic">
+            </div>
+            <h3>Elementary</h3>
+            <p>Ormoc City Central School</p>
+            <p>Elementary school was full of laughter and adventure. I spent countless hours playing outside with friends, discovered my love for running in small competitions, and proudly joined the Boy Scouts. I was curious, energetic, and always up for fun, shaping my teamwork and leadership skills early on.</p>
+        </div>        
+
+        <!-- Junior High -->
+        <div class="card edu-card">
+            <div class="edu-flex">
+                <img src="assets/NOCNHS.jpg" alt="New Ormoc City National High School Logo" class="edu-logo">
+                <img src="assets/jhs-me.jpg" alt="Kian in Junior High" class="edu-personal-pic">
+            </div>
+            <h3>Junior High</h3>
+            <p>New Ormoc City National High School</p>
+            <p>Junior high brought new challenges, especially with the lockdowns. I focused on academics and striving for honors, while keeping connected with friends online. It was a period of growth, learning resilience, and discovering how to stay motivated even when everything felt different.</p>
+        </div>
+
+        <!-- Senior High -->
+        <div class="card edu-card">
+            <div class="edu-flex">
+                <img src="assets/ACLC.jpg" alt="ACLC College Of Ormoc Logo" class="edu-logo">
+                <img src="assets/shs-me.jpg" alt="Kian in Senior High" class="edu-personal-pic">
+            </div>
+            <h3>Senior High</h3>
+            <p>ACLC College of Ormoc</p>
+            <p>Senior high was a lively mix of academics and social life. I enjoyed parties, outings with friends, and discovering my independence. It taught me the importance of balance, responsibility, and making the most of every experience while still having fun.</p>
+        </div>
+
+        <!-- College -->
+        <div class="card edu-card">
+            <div class="edu-flex">
+                <img src="assets/EVSU.jpg" alt="Eastern Visayas State University Logo" class="edu-logo">
+                <img src="assets/college-me.jpg" alt="Kian in College" class="edu-personal-pic">
+            </div>
+            <h3>College</h3>
+            <p>Eastern Visayas State University</p>
+            <p>College is an ongoing adventure. As a second-year IT student, I’m diving deep into coding, web development, and personal projects. Balancing studies, hobbies, and friendships continues to challenge me, but it’s helping me grow into the person I aspire to become.</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section hidden">
+    <h2>Skills</h2>
+    <div class="grid">
+        <div class="card skill-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Programming</h3>
+            <p>HTML, CSS, JavaScript, Python, C</p>
+            <div class="skill-bar"><span>HTML & CSS</span><div class="bar"><div class="progress" style="width:90%;"></div></div></div>
+            <div class="skill-bar"><span>JavaScript</span><div class="bar"><div class="progress" style="width:80%;"></div></div></div>
+            <div class="skill-bar"><span>Python</span><div class="bar"><div class="progress" style="width:70%;"></div></div></div>
+        </div>
+        <div class="card skill-card">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, n8n, Postman</p>
+        </div>
+        <div class="card skill-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Technical Areas</h3>
+            <p>Web Development, Basic Databases, Networking Fundamentals</p>
+        </div>
+        <div class="card skill-card">
+            <i class="fa-solid fa-people-group"></i>
+            <h3>Soft Skills</h3>
+            <p>Teamwork, Communication, Time Management, Empathy, Adaptability</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section hidden">
+    <h2>Projects</h2>
+    <div class="grid">
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive single-page website developed to showcase my background, skills, hobbies, and projects.</p>
+            <p><strong>Tools:</strong> HTML, CSS, JavaScript</p>
+            <p><strong>Contribution:</strong> Designer & Developer – created the layout, interactive animations, theme toggle, and responsive design.</p>
+            <div class="project-img">
+                <img src="assets/portfolio.png" alt="Portfolio Website Screenshot">
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>BMI Calculator</h3>
+            <p>A system that calculates Body Mass Index (BMI) and provides health feedback based on user input.</p>
+            <p><strong>Tools:</strong> Visual Studio, C#</p>
+            <p><strong>Contribution:</strong> Team Member</p>
+
+            <div class="bmi-grid">
+                <div class="bmi-card" data-img="assets/bmi1.jpg" data-desc="User can securely register an account or log in to access the BMI calculator, ensuring personalized data and results.">
+                    <img src="assets/bmi1.jpg" alt="Login & Register">
+                    <p>Login & Register</p>
+                </div>
+                <div class="bmi-card" data-img="assets/bmi2.jpg" data-desc="After logging in, users enter their name, age, gender, height, and weight. The system calculates and displays the BMI result along with a health category.">
+                    <img src="assets/bmi2.jpg" alt="Personal Info & BMI Result">
+                    <p>Input Info & BMI</p>
+                </div>
+                <div class="bmi-card" data-img="assets/bmi3.jpg" data-desc="Users select their main fitness goal: Lose Weight, Build Muscle, or Keep Fit. This choice customizes the recommended exercises.">
+                    <img src="assets/bmi3.jpg" alt="Choose Fitness Goal">
+                    <p>Fitness Goal</p>
+                </div>
+                <div class="bmi-card" data-img="assets/bmi4.jpg" data-desc="Based on the selected goal, the system provides a list of personalized exercises to help achieve weight loss, muscle building, or maintaining fitness.">
+                    <img src="assets/bmi4.jpg" alt="Exercise Recommendations">
+                    <p>Exercise Plan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="bmiModal" class="bmi-modal hidden">
+    <span class="bmi-close">&times;</span>
+    <img class="bmi-modal-img" src="">
+    <p class="bmi-modal-desc"></p>
+</div>
+
+<section id="contact" class="section alt hidden">
+    <h2>Contact</h2>
+    <form class="contact-form" id="contactForm">
+        <input type="text" name="user_name" placeholder="Name" required>
+        <input type="email" name="user_email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>    
+
+    <div class="social-links">
+        <a href="mailto:kiancarrillo789@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://github.com/KianCarrillo" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://facebook.com/killiannemurphy" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2025 Kian Carrillo, Built with HTML, CSS & JavaScript, All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+    (function(){
+        emailjs.init("v-9wuJO1t6wWJtcGG");
+    })();
+</script>
+<script src="script.js"></script>
+</body>
+</html>
